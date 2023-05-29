@@ -26,7 +26,7 @@ function showXml(xml) {
         return;
     }
 
-    document.getElementById("hintText").innerHTML = `This is the result of How much other currency can be get by ${twdAmount} TWD `;
+    document.getElementById("hintText").innerHTML = `This is the result of How much other currency can be get by ${twdAmount} TWD. TWD(台幣) USD(美元) EUR(歐元) JPY(日幣) KRW(韓元) AUD(澳幣)`;
     let table = "<tr><th>TWD</th><th>USD</th><th>EUR</th><th>JPY</th><th>KRW<th>AUD</th></tr>"
 
     //table content, toFixed(2) is to keep 2 decimal places
