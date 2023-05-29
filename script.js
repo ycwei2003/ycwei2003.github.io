@@ -31,7 +31,7 @@ function showXml(xml) {
 
     //table content, toFixed(2) is to keep 2 decimal places
     table += "<tr><td>" +
-    twdAmount +
+    "NT$" + twdAmount +
     "</td><td>$" +
     (twdAmount / x[0].getElementsByTagName("USD")[0].childNodes[0].nodeValue).toFixed(2) +
     "</td><td>€" +
