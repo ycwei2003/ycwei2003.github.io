@@ -54,7 +54,3 @@ function reset() {
     document.getElementById("hintText").innerHTML = "Waiting Convert...";
 
 }
-
-function showUserWallet(){
-    alert("You have no money$ Q___Q")
-}
