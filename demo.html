@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Currency Converter</title>
+    <!--Question3: 有用到超過5種css語法產生的特效, 像是background-color, border-radius, color, font-size, font-family等等-->
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+
+    <header>
+        <h1>Currency Converter (only TWD to Other Currency)</h1>
+    </header>
+
+    <div id="inputBlock">
+        <p>Please enter the amount of TWD you want to convert : </p><input type="text" id="inputBar">
+        <button id="convertBtn" onclick="loadDoc()">Convert</button>
+        <button id="resetBtn" onclick="reset()">Reset</button>
+    </div>
+
+    <br>
+    <hr>
+    <br>
+
+    <div id="outputBlock">
+        <p id="hintText">Waiting For Convert...</p>
+        <table id="resultTable"></table>
+    </div>
+
+    <br>
+    <hr>
+    <br>
+
+    <footer>
+        <button id="donateBtn" onclick="showUserWallet()">Donate</button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
